@@ -7,7 +7,10 @@ will inherit qualities from a more basic class. For example, health bars and wal
 bullets, players, and enemies will inherit from a circle class.
 
 ## Directions to Run:
-This project assumes a 64-bit system. If you are using 32 bit, edit line 6 of the CMakeLists.txt to accommodate. 
+- It is recommended to run this application with an IDE. I recommend CLion as it was used during development.
+- When opening the project, a folder called 'cmake-build-debug' will be created. It is essential to move the file named 'freeglut.dll' (in the root directory) into the 'cmake-build-debug' folder for OpenGLL to recognize GLUT. Without doing this, an error such as 'Process finished with exit code -1073741515' will arise. 
+- This project assumes a 64-bit system. If you are using 32 bit, edit line 6 of the CMakeLists.txt to accommodate. 
+- To run the application and play the game, run the graphics.cpp file
 
 ## Screens
 1. Title Screen
