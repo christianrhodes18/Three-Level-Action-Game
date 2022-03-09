@@ -6,6 +6,8 @@ GLUT and openGL. The functionality of each of these models will employ the use o
 will inherit qualities from a more basic class. For example, health bars and walls inherit from a quad class, whereas
 bullets, players, and enemies will inherit from a circle class.
 
+A demo can be found here: https://youtu.be/X2CsEikTPQk
+
 ## Requirements:
 freeglut must be installed on the system. To install it, follow the steps found at http://freeglut.sourceforge.net/docs/install.php
 
