@@ -1,5 +1,5 @@
-# Three Level Action Game
-##by Christian Rhodes and Kody Politza
+# Three Level Action Game #
+## by Christian Rhodes and Kody Politza ##
 This project uses graphics API OpenGL and its utility toolkit GLUT to create a top-down bullet hell video game. 
 The game environment, as well as characters, boundaries, objects, and projectiles are all modelled with 
 GLUT and openGL. The functionality of each of these models will employ the use of inheritance. Each game object 
