@@ -6,6 +6,9 @@ GLUT and openGL. The functionality of each of these models will employ the use o
 will inherit qualities from a more basic class. For example, health bars and walls inherit from a quad class, whereas
 bullets, players, and enemies will inherit from a circle class.
 
+## Requirements:
+freeglut must be installed on the system. To install it, follow the steps found at http://freeglut.sourceforge.net/docs/install.php
+
 ## Directions to Run:
 - It is recommended to run this application with an IDE. I recommend CLion as it was used during development.
 - When opening the project, a folder called 'cmake-build-debug' will be created. It is essential to move the file named 'freeglut.dll' (in the root directory) into the 'cmake-build-debug' folder for OpenGLL to recognize GLUT. Without doing this, an error such as 'Process finished with exit code -1073741515' will arise. 
