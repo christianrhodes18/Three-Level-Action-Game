@@ -10,8 +10,7 @@ bullets, players, and enemies will inherit from a circle class.
 freeglut must be installed on the system. To install it, follow the steps found at http://freeglut.sourceforge.net/docs/install.php
 
 ## Directions to Run:
-- It is recommended to run this application with an IDE. I recommend CLion as it was used during development.
-- When opening the project, a folder called 'cmake-build-debug' will be created. It is essential to move the file named 'freeglut.dll' (in the root directory) into the 'cmake-build-debug' folder for OpenGLL to recognize GLUT. Without doing this, an error such as 'Process finished with exit code -1073741515' will arise. 
+- It is recommended to run this application with an IDE. I recommend CLion as it was used during development. After opening in CLion, you will need to select a 'CMakeLists.txt' file. Do this by selecting the 'CMakeLists.txt' file in the root directory, and a folder called 'cmake-build-debug' will be created. It is essential to move the file named 'freeglut.dll' (in the root directory) into the 'cmake-build-debug' folder for OpenGLL to recognize GLUT. Without doing this, an error such as 'Process finished with exit code -1073741515' will arise. The application will compile, bu the software will not interface with the graphics card as intended. 
 - This project assumes a 64-bit system. If you are using 32 bit, edit line 6 of the CMakeLists.txt to accommodate. 
 - To run the application and play the game, run the graphics.cpp file
 
